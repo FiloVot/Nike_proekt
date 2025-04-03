@@ -4,43 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+      
     <link rel="stylesheet" href="CSS/reset.css" />
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <!-- header -->
     <header class="header">
-      <div class="conteiner">
+      <div class="container">
         <img class="logo" src="imgs/nikelogo.png" alt="nike_logo" />
         <nav class="header-nav">
           <ul class="header-list">
             <li><a class="header-item" href="./index.html">Main page</a></li>
-            <li><a class="header-item" href="./index.html">Benefits</a></li>
-            <li><a class="header-item" href="./index.html">Advantages</a></li>
-            <li><a class="header-item" href="./index.html">Reviews</a></li>
-            <li><a class="header-item" href="./index.html">Contacts</a></li>
-            <li><a class="header-item" href="./index.html">Order</a></li>
+            <li><a class="header-item" href="./benefits.html">Benefits</a></li>
+            <li>
+              <a class="header-item" href="./advantages.html">Advantages</a>
+            </li>
+            <li><a class="header-item" href="./reviews.html">Reviews</a></li>
+            <li><a class="header-item" href="./contacts.html">Contacts</a></li>
+            <li><a class="header-item" href="./order.html">Order</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <!-- Головный блок -->
+
     <main class="main">
       <section class="hero">
-        <div class="conteiner">
+        <div class="container">
           <img class="hero-img" src="./imgs/nikelogo.png" alt="nike_logo" />
           <h1 class="hero-title">ColoRawe</h1>
           <h2 class="hero-title">Your dream Nike</h2>
           <p class="hero-text">
             On this site you can find custom Nike sneakers of your dreams. The
-            original company caт`t create such beautiful sneakers as we do. Good
+            original company can't create such beautiful sneakers as we do. Good
             luck finding your way in the world of custom sneakers.
           </p>
           <button type="button">Buy my Nike</button>
         </div>
       </section>
+
       <section class="premium-imgs">
-        <div class="conteiner">
+        <div class="container">
           <ul class="premium-list">
             <li class="premium-item">
               <h3 class="premium-title">Premium Quality</h3>
@@ -58,41 +68,93 @@
         </div>
       </section>
       <section class="reviews">
-        <div class="conteiner">
+        <div class="container">
           <h2 class="reviews-title">Reviews</h2>
           <ul class="reviews-list">
             <li class="reviews-item">
-              <p class="reviews-text">
+              <h3 class="reviews-title">
                 Sneakers are very comfortable and well painted, nothing has worn
                 off in a year.
-              </p>
+              </h3>
+              <p class="reviews-text">25.11</p>
+              <div class="user-text">
+                <span>John Teylor</span>
+                <span>With us from 2018</span>
+              </div>
+            </li>
+            <li class="reviews-item">
+              <h3 class="reviews-title">
+                I'm very happy with this color scheme. They match all my
+                clothes.
+              </h3>
+              <p class="reviews-text">05.01</p>
+              <div class="user-text">
+                <span>Elizabeth Garsia</span>
+                <span>With us from 2020</span>
+              </div>
+            </li>
+            <li class="reviews-item">
+              <h3 class="reviews-title">
+                Just right if you need to go to a party. I use them actively,
+                the paint is super.
+              </h3>
+              <p class="reviews-text">18.06</p>
+              <div class="user-text">
+                <span>Tom Maquare</span>
+                <span>With us from 2019</span>
+              </div>
             </li>
           </ul>
         </div>
       </section>
+      <!-- Закрываем секцию reviews -->
       <section class="order">
-        <div class="conteiner">
+        <div class="container">
           <h2>Order</h2>
-          <ul class="order-list">
-            <li class="order-item">
-              <input type="Write your email" />
-            </li>
-            <li class="order-item">
-              <input type="Your Country" />
-            </li>
-            <li class="order-item">
-              <input type="Your City" />
-            </li>
-            <li class="order-item">
-              <input type="Your Adress" />
-            </li>
-          </ul>
-          <button type="submit">Order my Nike</button>
+          <form action="#" method="POST">
+            <ul class="order-list">
+              <li class="order-item">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Write your email"
+                  required
+                />
+                <button type="button">Confirm</button>
+              </li>
+              <li class="order-item">
+                <input
+                  type="text"
+                  name="country"
+                  placeholder="Your Country"
+                  required
+                />
+              </li>
+              <li class="order-item">
+                <input
+                  type="text"
+                  name="city"
+                  placeholder="Your City"
+                  required
+                />
+              </li>
+              <li class="order-item">
+                <input
+                  type="text"
+                  name="address"
+                  placeholder="Your Address"
+                  required
+                />
+              </li>
+            </ul>
+            <button type="submit">Order my Nike</button>
+          </form>
         </div>
       </section>
     </main>
+
     <footer class="footer">
-      <div class="conteiner">
+      <div class="container">
         <ul class="footer-list">
           <li class="footer-item">
             <h3 class="footer-title">Have a question?</h3>
@@ -103,26 +165,12 @@
           <li class="footer-item">
             <h3 class="footer-title">Advertising questions?</h3>
           </li>
-          <li class="footer-item">
-            <a class="footer-link" href="#">ColoRawe_support@gmail.com</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="#">ColoRawe_Cooperation@gmail.com</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="#">ColoRawe_Advertising@gmail.com</a>
-          </li>
         </ul>
         <hr class="footer-hr" />
-        <ul>
-          <li>
-            <p class="footer-text">2022 ColoRawe @All rights reserved</p>
-          </li>
-          <li>
-            <p class="footer-text">United States</p>
-          </li>
-        </ul>
-        <img src="./imgs/nikelogo.png" alt="nike_logo">
+        <p class="footer-text">
+          2022 ColoRawe @All rights reserved | United States
+        </p>
+        <img src="./imgs/nikelogo.png" alt="nike_logo" />
       </div>
     </footer>
   </body>
