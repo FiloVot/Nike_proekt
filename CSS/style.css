@@ -7,6 +7,12 @@
     --language-col:#DCDCDC;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     width: 1140px;
     padding: 0 15px;
@@ -15,7 +21,6 @@
 
   .header-flex {
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
 
@@ -30,7 +35,6 @@ background-color: var(--header-bg);
 
 .header-list {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 30px;
     margin-left: 152px;
@@ -63,4 +67,119 @@ line-height: normal;
 .language-item:hover {
     color: #FFFFFF;
 }
+
+.hero {
+    background-image: url(../imgs/firstnike_bg.jpg);
+ padding: 183px 0;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+.logo-name {
+    color: #FFF;
+font-family: "PT Serif";
+font-size: 48px;
+font-weight: 400;
+line-height: normal;
+}
+
+.logo-name::before {
+    content: "";
+    display: block;
+width: 160px;
+height: 120px;
+    background-image: url(../imgs/nikelogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-title {
+    color: #FFF;
+font-family: "Playfair Display";
+font-size: 144px;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+}
+
+.hero-title-sap {
+    color: #FFF;
+font-family: "Playfair Display";
+font-size: 72px;
+font-weight: 400;
+line-height: normal;
+}
+
+.hero-text {
+    color: #FFF;
+font-size: 18px;
+font-weight: 400;
+line-height: normal;
+}
+
+.hero-button {
+    color: #FFF;
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+background-color: var(--button-main);
+border-radius: 10px;
+padding: 20px 61px;
+margin-top: 41px;
+border: none;
+}
+
+.premium-imgs {
+    background-image: url(../imgs/gradient_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 105px 0 115px 0;
+}
+
+.premium-list {
+    padding: 25px 50px;
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+    border: 5px solid var(--button-main);
+}
+
+.premium-item {
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+ color: var(--font-main);
+text-align: center;
+}
+
+.premium-item:first-child {
+padding-right: 50px;
+border-right: 1px solid;
+color: var(--font-main);
+}
+
+.premium-item:last-child {
+    padding-left: 50px;
+    border-left: 1px solid;
+    color: var(--font-main);
+}
+.premium-title {
+    color: #FFF;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-weight: 400;
+line-height: normal;
+width: 159px;
+}
+
+
+
+
+
+
 
