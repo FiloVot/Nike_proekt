@@ -4,7 +4,63 @@
     --font-main: #FFFFFF;
     --font-second: #C7C7C7;
     --button-main: #8E32C6;
+    --language-col:#DCDCDC;
 }
 
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 
+  .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.header {
+padding:  0;
+background-color: var(--header-bg);
+}
+
+.logo {
+    padding: 16px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-left: 152px;
+}
+
+.header-item {
+color: var(--font-second);
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+}
+
+.header-item:hover {
+    color: var(--font-main);
+} 
+
+
+.language-list {
+    display: flex;
+    gap: 10px;
+}
+
+.language-item {
+color: var(--language-col);
+font-size: 24px;
+font-weight: 300;
+line-height: normal;
+}
+
+.language-item:hover {
+    color: #FFFFFF;
+}
 

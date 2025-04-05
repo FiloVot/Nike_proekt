@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Nike</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
@@ -25,32 +25,32 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-flex">
         <a href="#">
-        <img class="logo" src="imgs/nikelogo.png" alt="nike_logo" />
-      </a>
+          <img class="logo" src="imgs/nikelogo.png" alt="nike_logo" />
+        </a>
         <nav class="header-nav">
           <ul class="header-list">
             <li><a class="header-item" href="./index.html">Main page</a></li>
-            <li><a class="header-item" href="./benefits.html">Benefits</a></li>
+            <li><a class="header-item" href="./index.html">Benefits</a></li>
             <li>
-              <a class="header-item" href="./advantages.html">Advantages</a>
+              <a class="header-item" href="./index.html">Advantages</a>
             </li>
-            <li><a class="header-item" href="./reviews.html">Reviews</a></li>
-            <li><a class="header-item" href="./contacts.html">Contacts</a></li>
-            <li><a class="header-item" href="./order.html">Order</a></li>
+            <li><a class="header-item" href="./index.html">Reviews</a></li>
+            <li><a class="header-item" href="./index.html">Contacts</a></li>
+            <li><a class="header-item" href="./index.html">Order</a></li>
           </ul>
-          <div class="header-language">
-            <ul class="language-list">
-<li class="language-item">
-  <a href="#">Ua</a>
-</li>
-<li class="language-item">
-  <a href="#">Eng</a>
-</li>
-            </ul>
-          </div>
         </nav>
+        <div class="header-language">
+          <ul class="language-list">
+            <li class="language-item">
+              <a class="language-link" href="#">Ua</a>
+            </li>
+            <li class="language-item">
+              <a class="language-link" href="#">Eng</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -58,6 +58,7 @@
       <section class="hero">
         <div class="container">
           <img class="hero-img" src="./imgs/nikelogo.png" alt="nike_logo" />
+          <h3 class="hero title">С&R</h3>
           <h1 class="hero-title">ColoRawe</h1>
           <h2 class="hero-title">Your dream Nike</h2>
           <p class="hero-text">
@@ -166,29 +167,55 @@
                 />
               </li>
             </ul>
-            <button type="submit">Order my Nike</button>
+            <button class="order-btn" type="submit">Order my Nike</button>
           </form>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <ul class="footer-list">
-          <li class="footer-item">
-            <h3 class="footer-title">Have a question?</h3>
+        <div class="footer-wr">
+          <ul class="footer-list">
+            <li class="footer-item">Have a question?</li>
+            <li></li>
+            <li class="footer-item">Have a proposal for cooperation?</li>
+            <li></li>
+            <li class="footer-item">Advertising questions?</li>
+            <li></li>
+          </ul>
+        </div>
+        <ul class="footer-list-link">
+          <li class="footer-item-link">
+            <a class="footer-link" href="#">ColoRawe_support@gmail.com</a>
           </li>
-          <li class="footer-item">
-            <h3 class="footer-title">Have a proposal for cooperation?</h3>
+
+          <li></li>
+        </ul>
+
+        <ul class="footer-list-link">
+          <li class="footer-item-link">
+            <a class="footer-link" href="#">ColoRawe_Cooperation@gmail.com</a>
           </li>
-          <li class="footer-item">
-            <h3 class="footer-title">Advertising questions?</h3>
+
+          <li></li>
+        </ul>
+
+        <ul class="footer-list-link">
+          <li class="footer-item-link">
+            <a class="footer-link" href="#">ColoRawe_Advertising@gmail.com</a>
           </li>
+
+          <li></li>
         </ul>
         <hr class="footer-hr" />
-        <p class="footer-text">
-          2022 ColoRawe @All rights reserved | United States
-        </p>
-        <img src="./imgs/nikelogo.png" alt="nike_logo" />
+        <ul class="footer-list-hr">
+          <li class="footer-item-hr">2022 ColoRawe @All rights reserved</li>
+          <li class="footer-item-hr">United States</li>
+        </ul>
+        <a href="#">
+          <img src="./imgs/nikelogo.png" alt="nike_logo" />
+        </a>
+        <h3 class="hero-title">С&R</h3>
       </div>
     </footer>
   </body>
