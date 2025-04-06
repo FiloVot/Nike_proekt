@@ -235,11 +235,11 @@ line-height: normal;
 .order-btn {
     display: flex;
     border-radius: 16px;
-background: #8E32C6;
+background-color: var(--button-main);
 border: none;
 margin: 0 auto;
 padding: 20px 49px;
-color: #FFF;
+color: var(--font-main);
 font-size: 24px;
 font-weight: 400;
 line-height: normal;
@@ -273,11 +273,46 @@ line-height: normal;
 
 
 .footer-link {
-    color: #FFF;
+color: var(--font-main);
     font-size: 24px;
     font-weight: 400;
     line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
 }
+
+.footer-div {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 24px;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-item-hr {
+color: var(--font-main);
+font-size: 18px;
+font-weight: 400;
+line-height: normal;
+    }
+
+    .logo-text {
+color: var(--font-main);
+font-family: "PT Serif";
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+    }
+
 
 
 
