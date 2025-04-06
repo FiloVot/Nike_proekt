@@ -129,11 +129,11 @@
       </section>
       <section class="order">
         <div class="container">
-          <h2>Order</h2>
-          <form action="#" method="POST">
+          <h2 class="order-title">Order</h2>
+          <form class="order-form" action="#" method="POST">
             <ul class="order-list">
               <li class="order-item">
-                <input
+                <input class="order-email"
                   type="email"
                   name="email"
                   placeholder="Write your email"
@@ -142,6 +142,7 @@
               </li>
               <li class="order-item">
                 <input
+                class="order-text"
                   type="text"
                   name="country"
                   placeholder="Your Country"
@@ -150,6 +151,7 @@
               </li>
               <li class="order-item">
                 <input
+                class="order-text"
                   type="text"
                   name="city"
                   placeholder="Your City"
@@ -158,14 +160,16 @@
               </li>
               <li class="order-item">
                 <input
+                class="order-text"
                   type="text"
                   name="address"
                   placeholder="Your Address"
                   required
                 />
               </li>
-            </ul>
+            
             <button class="order-btn" type="submit">Order my Nike</button>
+          </ul>
           </form>
         </div>
       </section>
@@ -175,9 +179,7 @@
         <div class="footer-wr">
           <ul class="footer-list">
             <li class="footer-item">Have a question?</li>
-
             <li class="footer-item">Have a proposal for cooperation?</li>
-
             <li class="footer-item">Advertising questions?</li>
           </ul>
         </div>
@@ -193,14 +195,18 @@
           </li>
         </ul>
         <hr class="footer-hr" />
+        <div class="footer-div">
         <ul class="footer-list-hr">
           <li class="footer-item-hr">2022 ColoRawe @All rights reserved</li>
           <li class="footer-item-hr">United States</li>
         </ul>
+        <div class="footer-logo">
         <a href="#">
           <img src="./imgs/nikelogo.png" alt="nike_logo" />
         </a>
-        <h3 class="hero-title">С&R</h3>
+        <p class="logo-text">С&R</p>
+      </div>
+      </div>
       </div>
     </footer>
   </body>
