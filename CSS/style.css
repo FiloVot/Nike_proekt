@@ -187,7 +187,10 @@ width: 159px;
 }
 
 .order-form {
-    gap: 19px;
+    display: flex;
+        flex-direction: column;
+        gap: 19px;
+        align-items: center;
 }
 
 .order-title {
