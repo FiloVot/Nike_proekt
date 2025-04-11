@@ -1,331 +1,420 @@
 :root {
-    --header-bg: #012D63;
-    --footer-bg: #021635;
-    --font-main: #FFFFFF;
-    --font-second: #C7C7C7;
-    --button-main: #8E32C6;
-    --language-col:#DCDCDC;
+  --header-bg: #012d63;
+  --footer-bg: #021635;
+  --font-main: #ffffff;
+  --font-second: #c7c7c7;
+  --button-main: #8e32c6;
+  --language-col: #dcdcdc;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    width: 1140px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
-  .header-flex {
-    display: flex;
-    align-items: center;
-  }
+.header-flex {
+  display: flex;
+  align-items: center;
+}
 
 .header {
-padding:  0;
-background-color: var(--header-bg);
+  padding: 0;
+  background-color: var(--header-bg);
 }
 
 .logo {
-    padding: 16px;
+  padding: 16px;
 }
 
 .header-list {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-left: 152px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 152px;
 }
 
 .header-item {
-color: var(--font-second);
-font-size: 24px;
-font-weight: 400;
-line-height: normal;
+  color: var(--font-second);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .header-item:hover {
-    color: var(--font-main);
-} 
-
+  color: var(--font-main);
+}
 
 .language-list {
-    display: flex;
-    gap: 10px;
-    padding-left: 73px;
+  display: flex;
+  gap: 10px;
+  padding-left: 73px;
 }
 
 .language-item {
-color: var(--language-col);
-font-size: 24px;
-font-weight: 300;
-line-height: normal;
+  color: var(--language-col);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
 }
 
 .language-item:hover {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero {
-    background-image: url(../imgs/firstnike_bg.jpg);
- padding: 183px 0;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+  background-image: url(../imgs/firstnike_bg.jpg);
+  padding: 183px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 .logo-name {
-    color: #FFF;
-font-family: "PT Serif";
-font-size: 48px;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-family: "PT Serif";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .logo-name::before {
-    content: "";
-    display: block;
-width: 160px;
-height: 120px;
-    background-image: url(../imgs/nikelogo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  content: "";
+  display: block;
+  width: 160px;
+  height: 120px;
+  background-image: url(../imgs/nikelogo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-title {
-    color: #FFF;
-font-family: "Playfair Display";
-font-size: 144px;
-font-weight: 400;
-line-height: normal;
-margin: 0;
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 144px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
 }
 
 .hero-title-sap {
-    color: #FFF;
-font-family: "Playfair Display";
-font-size: 72px;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .hero-text {
-    color: #FFF;
-font-size: 18px;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .hero-button {
-    color: #FFF;
-font-size: 24px;
-font-weight: 400;
-line-height: normal;
-background-color: var(--button-main);
-border-radius: 10px;
-padding: 20px 61px;
-margin-top: 41px;
-border: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: var(--button-main);
+  border-radius: 10px;
+  padding: 20px 61px;
+  margin-top: 41px;
+  border: none;
 }
 
 .premium-imgs {
-    background-image: url(../imgs/gradient_bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 105px 0 115px 0;
+  background-image: url(../imgs/gradient_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 105px 0 115px 0;
 }
 
 .premium-list {
-    padding: 25px 50px;
-    display: flex;
-justify-content: space-between;
-    align-items: center;
-    border: 5px solid var(--button-main);
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid var(--button-main);
 }
 
 .premium-item {
-    display: flex;
- flex-direction: column;
- align-items: center;
- color: var(--font-main);
-text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--font-main);
+  text-align: center;
 }
 
 .premium-item:first-child {
-padding-right: 50px;
-border-right: 1px solid;
-color: var(--font-main);
+  padding-right: 50px;
+  border-right: 1px solid;
+  color: var(--font-main);
 }
 
 .premium-item:last-child {
-    padding-left: 50px;
-    border-left: 1px solid;
-    color: var(--font-main);
+  padding-left: 50px;
+  border-left: 1px solid;
+  color: var(--font-main);
 }
 .premium-title {
-    color: #FFF;
-text-align: center;
-font-family: "Playfair Display";
-font-size: 36px;
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
+  width: 159px;
+}
+
+.reviews {
+  padding: 25px 0 115px 0;
+  background-image: url(../imgs/reviews_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviews-title {
+  color: var(--font-main);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.reviews-list {
+  display: flex;
+  align-items: center;
+  gap: 92px;
+}
+
+.reviews-item {
+    width: 255px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 292px;
+    padding: 50px 14px 30px 13px;
+    border-radius: 15px;
+    box-shadow: 0 15px 0 -4px #7d42c4, 0 32px 0 -12px #5c308f;
+    background: linear-gradient(137deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
+}
+.reviews-item:nth-child(1) {
+  border-radius: 15px;
+  padding: 50px 9px 30px 18px;
+  background: linear-gradient(
+    137deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
+}
+
+.reviews-item:nth-child(2) {
+  border-radius: 15px;
+  padding: 50px 9px 30px 18px;
+  background: linear-gradient(
+    137deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+}
+
+.reviews-item:nth-child(3) {
+  border-radius: 15px;
+  padding: 50px 9px 30px 18px;
+  background: linear-gradient(
+    143deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
+}
+
+.reviews-first-text {
+color: var(--font-main);
+font-size: 24px;
+font-weight: 400;
+font-style: normal;
+line-height: normal;
+margin-bottom: 8px;
+}
+
+.reviews-text {
+    color: #D8D8D8;
+font-size: 14px;
 font-weight: 400;
 line-height: normal;
-width: 159px;
+margin-bottom: 20px;
+}
+
+.user-title {
+color: var(--font-main);
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+}
+
+.user-text {
+ color: #D8D8D8;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
 }
 
 .order {
-    padding: 21px 0 37px;
-    background-image: url(../imgs/orders_bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  padding: 21px 0 37px;
+  background-image: url(../imgs/orders_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .order-form {
-    display: flex;
-        flex-direction: column;
-        gap: 19px;
-        align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: center;
 }
 
 .order-title {
-color: #FFF;
-font-family: "Playfair Display";
-font-size: 48px;
-font-weight: 400;
-line-height: normal;
-display: flex;
-justify-content: center;
-margin-bottom: 33px;
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 33px;
 }
 
 .order-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 19px;
 }
 
 .order-email {
-display: flex;
-padding: 13px 460px 13px 25px;
-border-radius: 50px;
-background-color: var(--font-main);
-color: #959595;
-font-size: 28px;
-font-weight: 400;
-line-height: normal;
-border: none;
+  display: flex;
+  padding: 13px 460px 13px 25px;
+  border-radius: 50px;
+  background-color: var(--font-main);
+  color: #959595;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
 }
 
 .order-text {
-display: flex;
-padding: 11px 417px 11px 25px;
-border-radius: 50px;
-background-color: var(--font-main);
-color: #959595;
-font-size: 24px;
-font-weight: 400;
-border: none;
-line-height: normal;
+  display: flex;
+  padding: 11px 417px 11px 25px;
+  border-radius: 50px;
+  background-color: var(--font-main);
+  color: #959595;
+  font-size: 24px;
+  font-weight: 400;
+  border: none;
+  line-height: normal;
 }
 
 .order-btn {
-    display: flex;
-    border-radius: 16px;
-background-color: var(--button-main);
-border: none;
-margin: 0 auto;
-padding: 20px 49px;
-color: var(--font-main);
-font-size: 24px;
-font-weight: 400;
-line-height: normal;
+  display: flex;
+  border-radius: 16px;
+  background-color: var(--button-main);
+  border: none;
+  margin: 0 auto;
+  padding: 20px 49px;
+  color: var(--font-main);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer {
-    padding: 45px 0 37px 0;
-    background-color: var(--footer-bg);
-    color: var(--font-main);
+  padding: 45px 0 37px 0;
+  background-color: var(--footer-bg);
+  color: var(--font-main);
 }
 
 .footer-wr {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .footer-list {
-    display: flex;
-flex-direction: column;
-display: flex;
+  display: flex;
+  flex-direction: column;
+  display: flex;
 }
 
 .footer-item {
-color:var(--font-main);
-font-size: 24px;
-font-weight: 400;
-line-height: normal;
+  color: var(--font-main);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
 }
 
-
 .footer-link {
-color: var(--font-main);
-    font-size: 24px;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-skip-ink: none;
-    text-decoration-thickness: auto;
-    text-underline-offset: auto;
-    text-underline-position: from-font;
+  color: var(--font-main);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }
 
 .footer-div {
-    display: flex; 
-    justify-content: space-between;
-    margin-top: 24px;
-    }
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
 
-    .footer-logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-    .footer-item-hr {
-color: var(--font-main);
-font-size: 18px;
-font-weight: 400;
-line-height: normal;
-    }
+.footer-item-hr {
+  color: var(--font-main);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
 
-    .logo-text {
-color: var(--font-main);
-font-family: "PT Serif";
-font-size: 24px;
-font-weight: 400;
-line-height: normal;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.logo-text {
+  color: var(--font-main);
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
