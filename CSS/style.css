@@ -7,6 +7,10 @@
   --language-col: #dcdcdc;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -43,12 +47,16 @@
 .header-item {
   color: var(--font-second);
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
 }
 
 .header-item:hover {
   color: var(--font-main);
+}
+
+.header-language {
+  margin-left: auto;
 }
 
 .language-list {
@@ -182,6 +190,21 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.reviews::before {
+content: "";
+background-image: url(../imgs/fllowers.png);
+width: 340px;
+height: 380px;
+display: block;
+position: absolute;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+bottom: 0;
+left: -136px;
 }
 
 .reviews-title {
@@ -191,10 +214,12 @@
   font-size: 48px;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 24px;
 }
 
 .reviews-list {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 92px;
 }
@@ -264,6 +289,14 @@ font-size: 14px;
 font-weight: 400;
 line-height: normal;
 margin-bottom: 20px;
+}
+
+.reviews-img {
+  display: flex;
+}
+
+.user-info {
+  margin-left: 5px;
 }
 
 .user-title {
