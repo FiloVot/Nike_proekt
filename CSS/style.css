@@ -201,8 +201,7 @@
 
 .reviews-item {
     width: 255px;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 292px;
