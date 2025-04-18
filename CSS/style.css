@@ -15,12 +15,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   width: 1140px;
   padding: 0 15px;
@@ -63,7 +57,7 @@ body {
 .language-list {
   display: flex;
   gap: 10px;
-
+margin-left: auto;
 }
 
 .language-item {
@@ -78,7 +72,7 @@ body {
 }
 
 .hero {
-  background-image: url(../imgs/firstnike_bg.jpg);
+  background-image: url(../img/firstnike_bg.jpg);
   padding: 183px 0;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,7 +92,7 @@ body {
   display: block;
   width: 160px;
   height: 120px;
-  background-image: url(../imgs/nikelogo.png);
+  background-image: url(../img/nikelogo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,7 +135,7 @@ body {
 }
 
 .premium-imgs {
-  background-image: url(../imgs/gradient_bg.jpg);
+  background-image: url(../img/gradient_bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,7 +181,7 @@ body {
 
 .reviews {
   padding: 25px 0 115px 0;
-  background-image: url(../imgs/reviews_bg.jpg);
+  background-image: url(../img/reviews_bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -196,7 +190,7 @@ body {
 
 .reviews::before {
 content: "";
-background-image: url(../imgs/fllowers.png);
+background-image: url(../img/fllowers.png);
 width: 340px;
 height: 380px;
 display: block;
@@ -303,7 +297,7 @@ line-height: normal;
 
 .order {
   padding: 21px 0 37px;
-  background-image: url(../imgs/orders_bg.jpg);
+  background-image: url(../img/orders_bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -383,6 +377,8 @@ line-height: normal;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
 }
 
 .footer-list {
